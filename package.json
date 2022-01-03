@@ -1,10 +1,9 @@
 {
   "name": "@ZitySpace/react-component-template",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Simple react component",
   "scripts": {
-    "rollup": "rollup -c",
-    "watch:css": "postcss tailwind.css -o src/styles/tailwind.css"
+    "rollup": "rollup -c"
   },
   "author": "Rui Zheng",
   "license": "MIT",
@@ -14,10 +13,12 @@
     "@rollup/plugin-typescript": "^8.3.0",
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
     "rollup": "^2.62.0",
     "rollup-plugin-dts": "^4.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "tailwindcss": "^3.0.8",
     "tslib": "^2.3.1",

@@ -13,7 +13,12 @@ registry=https://registry.npmjs.org/
 
 
 # reference
+## how to package
 - [How to Create and Publish a React Component Library](https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe)
 - [Creating a React Component Library using Rollup, Typescript, Sass and Storybook](https://blog.harveydelaney.com/creating-your-own-react-component-library/)
 - [Build a component library with React and TypeScript](https://blog.logrocket.com/build-component-library-react-typescript/)
+
+## how to integrate tailwind
+- [TailwindCSS with ReactJS](https://dev.to/hasibrashid/tailwindcss-with-reactjs-3ih9)
 - [Building Component libraries with TSDX and Tailwind](https://frontend.blog/build-your-own-flexible-component-library-using-tsdx-typescript-tailwind-css-headless-ui/)
+- [Bundle Stylesheets and Add LiveReload With Rollup](https://www.learnwithjason.dev/blog/learn-rollup-css)
