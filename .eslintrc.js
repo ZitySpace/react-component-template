@@ -17,14 +17,14 @@ module.exports = {
   root: true,
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
-    'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/ban-types': [
       'error',
       {
-        'types': {
-          'Function': false
-        }
-      }
+        types: {
+          Function: false,
+        },
+      },
     ],
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-inferrable-types': [
@@ -32,10 +32,11 @@ module.exports = {
       {
         ignoreParameters: false,
         ignoreProperties: false,
-      }
+      },
     ],
+    'react/react-in-jsx-scope': 'off',
   },
-  ignorePatterns: ['.next/**', 'node_modules/**', 'out/**'],
+  ignorePatterns: ['node_modules/**', 'dist/**'],
   settings: {
     react: {
       version: 'detect',
