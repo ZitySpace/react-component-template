@@ -65,6 +65,7 @@ export default [
         },
       }),
     ],
+    external: [...Object.keys(packageJson.dependencies || {})],
   },
   {
     input: 'dist/esm/types/index.d.ts',
